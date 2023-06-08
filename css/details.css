@@ -1,0 +1,80 @@
+@media screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .userCard {
+    width: 383px;
+  }
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: #42cae5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 90vw;
+  margin-top: 50px;
+}
+
+.logo__img {
+  width: 300px;
+  cursor: pointer;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.userCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 350px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  box-shadow: 7px 7px 7px;
+  padding: 15px;
+  margin: 20px;
+  height: auto;
+  font-size: 22px;
+  word-spacing: 3px;
+  line-height: 35px;
+  color: #fff;
+}
+
+.avatar {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.button {
+  height: 40px;
+  width: 200px;
+  border-radius: 30px;
+  margin: 20px;
+  box-shadow: 7px 7px 7px;
+  transition: 1s;
+  cursor: pointer;
+  background: #42cae5;
+  color: #fff;
+  border: 2px solid #fff;
+
+  font-weight: 800;
+}
+
+.button:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
